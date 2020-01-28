@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Text(hover) Effects</title>
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Mukta:600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="grid">
+      <div class="box">
+        <!-- 1: dna -->
+        <h2 class="title dna">
+          <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>D</span><span>r</span><span>a</span><span>s</span><span>t</span><span>i</span><span>c</span>
+        </h2>
+      </div>
+      <div class="box">
+        <!-- 2: push -->
+        <h2 class="title push">
+          <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>D</span><span>r</span><span>a</span><span>s</span><span>t</span><span>i</span><span>c</span>
+        </h2>
+      </div>
+      <div class="box">
+        <!-- 3: wave -->
+        <h2 class="title wave">
+          <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>D</span><span>r</span><span>a</span><span>s</span><span>t</span><span>i</span><span>c</span>
+        </h2>
+      </div>
+      <div class="box">
+        <!-- 4: blink -->
+        <h2 class="title blink">
+          <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>D</span><span>r</span><span>a</span><span>s</span><span>t</span><span>i</span><span>c</span>
+        </h2>
+      </div>
+      <div class="box">
+        <!-- 5: collide -->
+        <h2 class="title collide">
+          <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>D</span><span>r</span><span>a</span><span>s</span><span>t</span><span>i</span><span>c</span>
+        </h2>
+      </div>
+      <div class="box">
+        <!-- 6: skew -->
+        <h2 class="title skew">
+          <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>D</span><span>r</span><span>a</span><span>s</span><span>t</span><span>i</span><span>c</span>
+        </h2>
+      </div>
+      <div class="box">
+        <!-- 7: boom -->
+        <h2 class="title boom">
+          <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>D</span><span>r</span><span>a</span><span>s</span><span>t</span><span>i</span><span>c</span>
+        </h2>
+      </div>
+      <div class="box">
+        <!-- 8: push-pull -->
+        <h2 class="title push-pull">
+          <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>D</span><span>r</span><span>a</span><span>s</span><span>t</span><span>i</span><span>c</span>
+        </h2>
+      </div>
+      <div class="box">
+        <!-- 9: zap -->
+        <h2 class="title zap">
+          <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>D</span><span>r</span><span>a</span><span>s</span><span>t</span><span>i</span><span>c</span>
+        </h2>
+      </div>
+      <div class="box">
+        <!-- 10: in-out -->
+        <h2 class="title in-out">
+          <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>D</span><span>r</span><span>a</span><span>s</span><span>t</span><span>i</span><span>c</span>
+        </h2>
+      </div>
+      <div class="box">
+        <!-- 11: out-in -->
+        <h2 class="title out-in">
+          <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>D</span><span>r</span><span>a</span><span>s</span><span>t</span><span>i</span><span>c</span>
+        </h2>
+      </div>
+      <div class="box">
+        <!-- 12: fade-zoom -->
+        <h2 class="title fade-zoom">
+          <span>D</span><span>e</span><span>s</span><span>i</span><span>g</span><span>n</span><span>D</span><span>r</span><span>a</span><span>s</span><span>t</span><span>i</span><span>c</span>
+        </h2>
+      </div>
+    </div>
+  </body>
+  <!-- Include jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- Js / Animation script -->
+  <script>
+    const title = document.querySelectorAll('.title span');
+    var delay = 0;
+    for (var i = 1; i <= title.length; i++) {
+      $('.title span:nth-child('+i+')').css({
+        'animation-delay' : delay+'s',
+      });
+      delay = delay+.1;
+    }
+  </script>
+</html>
