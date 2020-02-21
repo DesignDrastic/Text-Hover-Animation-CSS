@@ -4,6 +4,8 @@ Text Hover Animation CSS
 <a href="https://designdrastic.com/snippet/text-hover-animation-css"><strong>View Post</strong></a><br />
 <a href="https://designdrastic.com/post/demo/text-hover-animation-css"><strong>View Demo</strong></a><br />
 
+![Demo](/text-hover-animation-css.gif)
+
 
 In this demo, you get a couple of text hover animation and effects. All the hover effects are simple, creative and smooth so you can use it on your websites, ex elements: Menu(link), A#href, Tags, Readmore, CTA, Categories, etc... 
 
